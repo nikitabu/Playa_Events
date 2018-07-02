@@ -1,11 +1,11 @@
 # Machine Learning Burning Man Events Data
 
-- The original notebooks on Burning Man Events EDA and Classification were performed with data collected via API by Justin Klein
+- The original notebooks on Burning Man Events EDA and Classification used datasets collected via API by Justin Klein
 - Unfortunately, Justin's preprocessed dataset only contained data for the years 2015-2017
 - Data for previous years, as far back as 2009, exists online but isn't accessible through the official API
 - My solution was to scraping and cleaning with the BeautifulSoup python package
 - On this larger dataset I discovered new statistical insights regarding long-term trends and data quality problems
-- I also trained event-type classifiers, comparing simple rule-based systems against complex feature engineering and NLP systems
+- I trained event-type classifiers, comparing simple rule-based systems against complex feature engineering and NLP features
 - I found that machine learning provide a substantial performance increase (as measured by both F1 score and ROC-AUC)
 
 In terms of actionable insights:
